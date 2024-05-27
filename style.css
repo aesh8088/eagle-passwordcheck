@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: pink;
+}
+
+
+.hel{
+    background-color: pink;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 88vh;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    justify-content: center;
+    box-shadow: 0 0 30px white;
+    border-radius: 10px;
+}
+
+#password{
+    width: 80%;
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#password:focus{
+    outline: none;
+}
+
+.output{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: pink;
+    font-family: sans-serif;
+    font-weight: 700;
+}
